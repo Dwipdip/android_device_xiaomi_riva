@@ -41,4 +41,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="riva" \
     PRIVATE_BUILD_DESC="riva-user 7.1.2 N2G47H V9.5.6.0.NCKMIFA release-keys"
 
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.bootleg.maintainer=Dwipapap
+
 BUILD_FINGERPRINT := Xiaomi/riva/riva:7.1.2/N2G47H/V9.5.6.0.NCKMIFA:user/release-keys
